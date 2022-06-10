@@ -1,0 +1,36 @@
+
+.checkBoxField {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 15px;
+  }
+  &__wrapper {
+    margin-right: 20px;
+  }
+  &__field {
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.big_width {
+  width: 60%;
+}
+
+.small_width {
+  width: 45%;
+}
+
+.inline_width {
+  width: initial;
+}

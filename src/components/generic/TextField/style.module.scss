@@ -1,0 +1,39 @@
+
+.textField {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 15px;
+  }
+  &__label {
+    margin-bottom: 8px;
+    margin-left: 8px;
+  }
+  &__field {
+    background: rgba(196, 196, 196, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 95%;
+    padding: 10px 10px;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.big_width {
+  width: 60%;
+}
+
+.very_big_width {
+  width: 85%;
+}
+
+.small_width {
+  width: 45%;
+}
+

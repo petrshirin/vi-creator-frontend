@@ -1,0 +1,71 @@
+
+.graphBlocks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+  background: #2C1D85;
+  border-radius: 0 20px 20px 0;
+
+  &__node-container {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 15px;
+  }
+
+  &__mark-container {
+    width: 70%;
+    height: 100%;
+  }
+}
+
+
+
+.node {
+  height: 38px;
+  width: 90%;
+  padding: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  border-radius: 20px;
+
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.node:last-child {
+  margin-bottom: 0;
+}
+
+.bot-node {
+  background: #390563;
+}
+
+.user-node {
+  background: #3547E9;
+}
+
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.selectall {
+  margin-top: 10px;
+}
+

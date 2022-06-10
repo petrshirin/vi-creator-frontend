@@ -1,0 +1,30 @@
+
+.Button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+  background: #BCBCBC;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+
+  &__submit {
+    background: #132BAA;
+    border-radius: 10px;
+    color: #FFFFFF;
+  }
+
+  &__submit-light {
+    background: #3547E9;
+    border-radius: 10px;
+    color: #FFFFFF;
+  }
+}

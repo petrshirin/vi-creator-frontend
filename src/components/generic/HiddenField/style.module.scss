@@ -1,0 +1,60 @@
+
+.hiddenField {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+  }
+  &__label {
+    margin-bottom: 8px;
+    margin-left: 15px;
+  }
+  &__field {
+    background: rgba(196, 196, 196, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    width: 95%;
+    padding: 10px 10px;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 91%;
+    top: 51%;
+  }
+
+  &__change-btn {
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    top: 33px;
+    left: 110%;
+
+    color: #2C1D85;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.big_width {
+  width: 60%;
+}
+
+.very_big_width {
+  width: 85%;
+}
+
+.small_width {
+  width: 45%;
+}
+

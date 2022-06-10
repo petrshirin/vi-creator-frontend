@@ -1,0 +1,19 @@
+
+.graphFlow {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  height: 89.5vh;
+  background: #FFFFFF;
+  position: absolute;
+  top: 10.5%;
+  width: 67%;
+  border-radius: 0 20px 20px 0;
+
+  &__wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+
+}
+

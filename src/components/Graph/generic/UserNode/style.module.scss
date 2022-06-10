@@ -1,0 +1,49 @@
+
+.userNode {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: #3547E9;
+
+  height: 38px;
+  width: 207px;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  cursor: grab;
+  border-radius: 20px;
+
+  &__text {
+    margin-left: 10px;
+  }
+
+  &__icon {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  &__button {
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
